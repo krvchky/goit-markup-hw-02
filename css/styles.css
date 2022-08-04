@@ -1,0 +1,191 @@
+.root {
+    --primary-text-color: rgba(255, 255, 255, 0.6);
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+
+
+/* колір основного тексту #212121; */
+/* вторинний колір #757575; */
+/* білий #FFFFFF */
+/* акцент #2196F3*/
+
+
+
+body {
+    background-color: #E5E5E5;
+    color: #212121;
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style: none;
+}
+
+
+.logo {
+        color: #000000;
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 24px;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
+}
+
+span {
+    color: #2196F3 ;
+    font-family: Oleo Script
+}
+
+.site-nav a {
+    color: #212121;
+}
+
+
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:#2196F3 ;
+}
+ 
+.link {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+}
+
+.project {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+    color: #212121;
+
+}
+
+.project-text {
+    color: #757575;
+        font-size: 16px;
+        line-height: 1.87;
+}
+
+.mail {
+    color: #757575;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+}
+
+.contacts .mail:hover, 
+.contacts .mail:focus {
+ color: #2196F3;
+}
+
+.phone-number:hover,
+.phone-number:focus {
+ color: #2196F3;
+}
+
+.phone-number {
+    color: #757575;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+}
+
+.modal-btn:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 4px;
+}
+.modal-btn {
+    cursor: pointer;
+}
+
+
+
+
+.footer-logo {
+color: #FFFFFF;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+}
+
+.footer-logo {
+    cursor: pointer;
+}
+
+
+.span {
+    color: #2196F3;
+    font-family: Oleo Script
+    }
+
+    .location {
+        color: #FFFFFF;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            /* or 171% */
+        
+            letter-spacing: 0.03em;
+    }
+    .email {
+        color: rgba(255, 255, 255, 0.6);
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            /* or 171% */
+        
+            letter-spacing: 0.03em;
+    }
+    .number {
+        color: rgba(255, 255, 255, 0.6);
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            /* or 171% */
+        
+            letter-spacing: 0.03em;
+    }
+
+
+.location:hover,
+.location:focus {
+    color: #2196F3;
+}
+
+.email:hover,
+.email:focus {
+color: #2196F3
+}
+
+.number:hover,
+.number:focus {
+    color: #2196F3
+}
