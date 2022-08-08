@@ -8,8 +8,8 @@
         letter-spacing: 0.06em;
         text-transform: uppercase;
     
-        color: #FFFFFF;
-        background: #2F303A;
+        color: var(--primary-white-color);
+        background: var(--background-color);
 }
 .first-button {
         width: 200px;
@@ -17,7 +17,7 @@
         left: 700px;
         top: 430px;
     
-        background: #2196F3;
+        background: var(--accent-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         font-weight: 700;
@@ -25,7 +25,8 @@
             line-height: 1.36;
             /* identical to box height, or 188% */
             letter-spacing: 0.06em;
-            color: #FFFFFF;
+            color: var(--primary-white-color);
+            border: none;
             
 }
 
@@ -42,7 +43,7 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
-        color: #212121;
+        color:var(--title-text-color);
 }
 
 .paragraph {
@@ -53,7 +54,7 @@
     
         letter-spacing: 0.03em;
     
-        color: #757575;
+        color: var(--primary-gray-color);
 }
 
 .second-headlines {
@@ -63,7 +64,7 @@
         text-align: center;
         letter-spacing: 0.03em;
     
-        color: #212121;
+        color:var(--title-text-color);
 }
 
 .team {
@@ -72,7 +73,7 @@
         line-height: 1.16;
         letter-spacing: 0.03em;
     
-        color: #212121;
+        color:var(--title-text-color);
 }
 
 .jobs {
@@ -82,15 +83,33 @@
         /* identical to box height */
         letter-spacing: 0.03em;
     
-        color: #757575;
+        color:var(--primary-gray-color);
+}
+
+.peoples {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+    
+        color:var(--title-text-color);
 }
 
 
 
 
+:root {
+    --primary-text-color: rgba(255, 255, 255, 0.6);
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --primary-gray-color: #757575;
+    --background-color: #2F303A;
+    --second-background-color:#E5E5E5;
+    --main-black-color:#000000;
 
-
-
+}
 
 
 
@@ -109,8 +128,8 @@
 
 
 body {
-    background-color: #E5E5E5;
-    color: #212121;
+    background-color: var(--second-background-color);
+    color:var(--title-text-color);
     font-family: 'Roboto', sans-serif;
 
 }
@@ -124,7 +143,7 @@ ul {
 
 
 .logo {
-        color: #000000;
+        color: var(--main-black-color);
         width: 145px;
         height: 31px;
         left: 215px;
@@ -142,18 +161,18 @@ ul {
 }
 
 span {
-    color: #2196F3 ;
-    font-family: Oleo Script
+    color:var(--accent-color);
 }
 
+
 .site-nav a {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color:#2196F3 ;
+    color:var(--accent-color) ;
 }
  
 .link {
@@ -172,7 +191,7 @@ span {
 
 
 .mail {
-    color: #757575;
+    color: var(--primary-gray-color);
     font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -181,17 +200,17 @@ span {
 
 .contacts .mail:hover, 
 .contacts .mail:focus {
- color: #2196F3;
+ color: var(--accent-color);
 
 }
 
 .phone-number:hover,
 .phone-number:focus {
- color: #2196F3;
+ color: var(--accent-color);
 }
 
 .phone-number {
-    color: #757575;
+    color: var(--primary-gray-color);
     font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -206,13 +225,25 @@ span {
 }
 
 
+
+.modal-btn {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.03em;
+    
+        color:var(--title-text-color);
+}
+
 .modal-btn {
     text-decoration: none;
+    border: none;
 }
 
 .modal-btn:hover {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--primary-white-color);
+    background-color:var(--accent-color);
     border-radius: 4px;
 }
 .modal-btn {
@@ -223,16 +254,17 @@ span {
 
 
 
+
 .project {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    color: #212121;
+    color: var(--title-text-color);
 
 }
 
 .project-text {
-    color: #757575;
+    color: var(--primary-gray-color);
     font-size: 16px;
     line-height: 1.87;
 }
@@ -244,7 +276,7 @@ span {
 
 
 .footer-logo {
-color: #FFFFFF;
+color: var(--primary-white-color);
     width: 145px;
     height: 31px;
     left: 215px;
@@ -267,12 +299,11 @@ color: #FFFFFF;
 
 
 .span {
-    color: #2196F3;
-    font-family: Oleo Script
+    color:var(--accent-color);
     }
 
     .location {
-        color: #FFFFFF;
+        color: var(--primary-white-color);
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
@@ -283,7 +314,7 @@ color: #FFFFFF;
             letter-spacing: 0.03em;
     }
     .email {
-        color: rgba(255, 255, 255, 0.6);
+        color: var(--primary-text-color);
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
@@ -294,7 +325,7 @@ color: #FFFFFF;
             letter-spacing: 0.03em;
     }
     .number {
-        color: rgba(255, 255, 255, 0.6);
+        color: var(--primary-text-color);
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
@@ -308,17 +339,17 @@ color: #FFFFFF;
 
 .location:hover,
 .location:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .email:hover,
 .email:focus {
-color: #2196F3
+color: var(--accent-color)
 }
 
 .number:hover,
 .number:focus {
-    color: #2196F3
+    color: var(--accent-color)
 }
 
 
